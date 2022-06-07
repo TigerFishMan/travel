@@ -43,9 +43,34 @@
         <p>Lorem ipsum dolor sit amet...</p>
       </section>
     </main>
-    <div class="p-6 lg:p-32">
-      Test
+
+    <div class="p-6 lg:px-32 lg:pt-32 lg:pb-0">
+      <div class="w-full text-center p-6 lg:px-32 lg:py-8 mb-4 text-4xl">About Us</div>
+      <div class="w-full text-center p-6 lg:px-32 lg:py-8 bg-green-500 mt-4">
+        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi non enim et nulla rutrum semper sed vel tortor. Mauris gravida nulla sem. Sed nibh ligula, tristique ullamcorper rutrum nec, facilisis sit amet nulla. Maecenas in ligula ante. Donec at elementum velit. Praesent eget dui velit. Pellentesque efficitur imperdiet ipsum, nec imperdiet turpis semper quis. Integer mattis lacinia ipsum id blandit. Praesent condimentum convallis erat ac posuere.
+      </div>
     </div>
+
+    <div class="p-6 lg:px-32 lg:pt-32 lg:pb-0">
+      <div class="w-full text-center p-6 lg:px-32 lg:py-8 mb-4 text-4xl">Locations</div>
+      <div class="grid grid-cols-3 gap-4 text-white">
+        <div v-for="i in 9" :key="i" class="w-full bg-blue-900 h-40">0{{i}}</div>
+      </div>
+      <div class="w-full text-center p-6 lg:px-32 lg:py-8 bg-red-500 mt-4">View all locations</div>
+    </div>
+
+    <div class="p-6 lg:px-32 lg:p-32">
+      <div class="w-full text-center p-6 lg:px-32 lg:py-8 mb-4 text-4xl">Contact Us</div>
+      <div class="grid grid-cols-2 gap-4 text-white">
+        <div v-for="j in 2" :key="j" class="w-full bg-blue-900">
+          <div class="w-full text-center p-6 bg-red-500 mb-4">Send us a message</div>
+          <div class="w-full text-center p-6">
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi non enim et nulla rutrum semper sed vel tortor. Mauris gravida nulla sem. Sed nibh ligula, tristique ullamcorper rutrum nec, facilisis sit amet nulla. Maecenas in ligula ante. Donec at elementum velit. Praesent eget dui velit. Pellentesque efficitur imperdiet ipsum, nec imperdiet turpis semper quis. Integer mattis lacinia ipsum id blandit. Praesent condimentum convallis erat ac posuere.
+          </div>
+        </div>
+      </div>
+    </div>
+
     <div>
       <footer class="w-full p-6 lg:p-32 bg-gray-900 text-gray-400">
         <div class="flex justify-between">
