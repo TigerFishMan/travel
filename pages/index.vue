@@ -1,6 +1,6 @@
 <template>
   <div>
-    <main class="h-screen flex items-center px-6 lg:px-32 text-white" style="backgroundImage: url(/images/10.jpg); background-size: cover;">
+    <main class="h-screen flex items-center px-6 lg:px-32 text-white" style="background-size: cover;" :style="{ backgroundImage: 'url(/images/1.jpg)'}">
       <header class="w-full absolute left-0 top-0 p-6 lg:px-32 lg:py-16">
         <div class="flex justify-between">
           <div>
